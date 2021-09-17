@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,sBAAI",
+    "sources": [
+        "main.scss",
+        "_global.scss",
+        "_custom.scss",
+        "_responsive.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
