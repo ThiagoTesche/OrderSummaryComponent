@@ -52,8 +52,12 @@ header .attribution p.second {
   padding: 0 60px;
 }
 
+header .attribution p.second a {
+  text-decoration: none;
+}
+
 main {
-  padding-bottom: 20px;
+  padding-bottom: 21px;
 }
 
 .container {
@@ -121,6 +125,11 @@ main {
 .container .summary .options p {
   margin-top: 10px;
   font-weight: 700;
+}
+
+.container .summary .options p span {
+  font-weight: 500;
+  color: rgba(100, 89, 89, 0.8);
 }
 
 .container .summary .options button {
