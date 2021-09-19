@@ -13,15 +13,42 @@ html, body{
     background-position:bottom;
 }
 
+header{
+    background-color: var(--Dark-blue);
+    text-align: center;
+
+    .attribution{
+        display: inline;
+        color: whitesmoke; 
+        justify-content: space-between;
+
+        p{
+            display: inline;
+            justify-content: space-between;
+
+            a{
+                color: rgb(227, 203, 250);
+                font-weight: 900;
+            }
+        }
+
+        p.second{
+            padding: 0 60px;
+        }
+    }
+}
+
+main{
+    padding-bottom: 21px;
+}
+
 .container{
     @include font;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 28vw;
+    margin: 30px auto;
+    width: 375px;
     height: 100%;
     padding: 0;
-    position: relative;
-    top: 20px;
+    margin-bottom: 60px;
     border-radius: 20px;
     background-color: white;
     box-shadow: 0px 0px 1px 1px  rgb(158, 155, 155);
@@ -78,7 +105,7 @@ html, body{
                 border: none;
                 text-decoration: underline;
                 background-color: var(--Very-pale-blue);
-
+                padding-right: 10px;
             }
         }
 
@@ -111,8 +138,3 @@ html, body{
 
 }
 
-footer{
-    background-color: var(--Dark-blue);
-    display: block;
-    color: whitesmoke;
-}
