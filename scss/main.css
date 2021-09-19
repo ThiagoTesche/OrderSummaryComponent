@@ -48,6 +48,14 @@ header .attribution p a {
   font-weight: 900;
 }
 
+header .attribution p img {
+  width: 4%;
+  height: 4%;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+  padding: 10px;
+}
+
 header .attribution p.second {
   padding: 0 60px;
 }

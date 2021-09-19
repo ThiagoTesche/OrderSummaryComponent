@@ -30,6 +30,13 @@ header{
                 color: rgb(227, 203, 250);
                 font-weight: 900;
             }
+
+            img{
+                width: 4%;
+                height: 4%;
+                filter: invert(100%);
+                padding: 10px;
+            }
         }
 
         p.second{
