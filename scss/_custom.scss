@@ -154,3 +154,18 @@ main{
 
 }
 
+.modal-container{
+    width: 600px;
+    height: 400px;
+    z-index: 999;
+    border: 1px solid red;
+    background-color: red;
+    margin: 0 auto;
+    left: 30%;
+    top: 30%;
+    position: absolute;
+    display: none;
+}
+
+
+

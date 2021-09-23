@@ -174,4 +174,17 @@ main {
   color: rgba(100, 89, 89, 0.8);
   margin-bottom: 30px;
 }
+
+.modal-container {
+  width: 600px;
+  height: 400px;
+  z-index: 999;
+  border: 1px solid red;
+  background-color: red;
+  margin: 0 auto;
+  left: 30%;
+  top: 30%;
+  position: absolute;
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
