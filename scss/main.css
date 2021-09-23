@@ -177,14 +177,71 @@ main {
 
 .modal-container {
   width: 600px;
-  height: 400px;
   z-index: 999;
-  border: 1px solid red;
-  background-color: red;
+  background-color: white;
+  -webkit-box-shadow: 0.1px 0.1px 1px black;
+          box-shadow: 0.1px 0.1px 1px black;
   margin: 0 auto;
-  left: 30%;
+  left: 29%;
   top: 30%;
   position: absolute;
-  display: none;
+  text-align: center;
+}
+
+.modal-container .btnClose {
+  float: right;
+  margin-top: -15px;
+  margin-right: -13px;
+}
+
+.modal-container .btnClose input[type=button] {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: var(--Bright-blue);
+  color: white;
+}
+
+.modal-container .plan {
+  border-bottom: 1px solid rgba(100, 89, 89, 0.8);
+  padding: 12px 0;
+}
+
+.modal-container .plan .options {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 0.5fr 2fr;
+      grid-template-columns: 0.5fr 0.5fr 2fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+.modal-container .plan .options img {
+  margin: 0 20px;
+  width: 70%;
+}
+
+.modal-container .plan .options p {
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.modal-container .plan .options p span {
+  font-weight: 500;
+  color: rgba(100, 89, 89, 0.8);
+}
+
+.modal-container .plan .options button {
+  margin-left: 16%;
+  border: none;
+  text-decoration: underline;
+  background-color: white;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  padding-right: 10px;
+  margin-right: 30px;
 }
 /*# sourceMappingURL=main.css.map */
